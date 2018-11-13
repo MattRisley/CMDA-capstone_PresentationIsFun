@@ -26,9 +26,10 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
       <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/2.png" width="330">
       
    *To open an existing R Markdown file* 
+   
    In R Studio:
    
-      <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/5.PNG" width="220">
+      <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/5.PNG" width="160"> &nbsp
       <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/6.PNG" height="160">
 
 
