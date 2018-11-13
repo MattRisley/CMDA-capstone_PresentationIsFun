@@ -17,11 +17,18 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
     <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/1.png" width="330">
 
     R Markdown offers 3 types of presentations
-    * iosslides
-    * slidy
-    * beamer
+* iosslides
+* slidy
+* beamer (select this to generate a Beamer presentation as shown in class)
         
     <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/2.png" width="330">
+    
+4. Render the Presentation
+* To create a presentation, click **Knit**: <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/3.png" width="110">
+* Knit automatically renders in the designated output type.
+* Change the output type by clicking the down arrow:
+
+    <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/4.png" width="330">
 
 
 # Authors
