@@ -29,7 +29,7 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
    
    In R Studio:
    
-      <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/OpenExistFile.PNG" width="160">
+      <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/OpenExistFile.PNG" width="450">
 
 4. Render the Presentation
     * To create a presentation, click **Knit**: <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/4.png" width="80">
