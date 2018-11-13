@@ -13,12 +13,14 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
     install.packages("rmarkdown")
     ```
 3. In R Studio:
+
         <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/1.png" width="330">
 
     R Markdown offers 3 types of presentations
         * iosslides
         * slidy
         * beamer
+        
         <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/2.png" width="330">
 
 
