@@ -1,0 +1,112 @@
+---
+title: "Beamer in R Markdown Highlights"
+author: "CMDA GTAs"
+date: "11/12/2018"
+output: 
+  beamer_presentation:
+    theme: "Hokie"
+---
+
+```{r setup, include=FALSE}
+# EXAMPLE OF AN R CHUNK
+
+
+# Default (global) R Chunk output settings:
+knitr::opts_chunk$set(echo = FALSE)
+
+# Recommend installing knitr library:
+# library(knitr)
+## Here are some other preferences for (global) R chunk outputs:
+# opts_chunk$set(echo = FALSE, tidy=FALSE, comment='')
+```
+
+## R Markdown
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+<!-- Two ways of making bulleted lists -->
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+**Alternative Way Using Asterics**
+
+* Bullet 4
+* Bullet 5
+
+## Slide with R Output
+
+<!-- SOME R CHUNK OPTIONS:
+#-------------------------------------------------------------------
+Include=FALSE means runs R code without displaying code
+Echo=FALSE means no R code will be displayed (only output)
+Eval=FALSE means R code will not be run
+Results='hide' means R code runs but results will not be displayed
+-->
+
+```{r cars, echo = TRUE}
+summary(cars)
+
+x=4
+y=5
+x+y
+```
+
+
+## Tables in 2 Ways
+
+Example | Table | in | HTML
+--------|-------|----|------
+1 | 2  | 3 | 4
+
+```{r kable, echo = TRUE}
+knitr::kable(mtcars[1:5,1:7], caption='A Knitr Table')
+```
+
+
+## Slide with Plot (No Special Arguments)
+
+```{r pressure1}
+plot(pressure,las=1,pch=20)
+```
+
+## Slide with Plot (With Special Arguments)
+
+```{r pressure2, dev.args = list(bg = 'transparent'), fig.width=4.5, fig.height=3, fig.align="center"}
+## Play around with fig.width and fig.height
+
+par(mar=c(4,4,1,1))
+plot(pressure,las=1,pch=20)
+```
+
+## Insert Images and Other Code Chunk Types
+
+\includegraphics[width=1in]{python.png}
+
+
+## Other Language Engines
+
+Many other languages are also supported in R markdown, e.g., Python,Julia, C++, and SQL.
+
+\footnotesize
+```{r eng names, echo = TRUE}
+names(knitr::knit_engines$get())
+```
+
+
+## Python in R Markdown
+
+```{python, echo = TRUE}
+x = 'Hello, CMDA students !'
+print(x.split(' '))
+```
+
+For more information:
+
+* https://bookdown.org/yihui/rmarkdown/language-engines.html
+
+* https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/
+
