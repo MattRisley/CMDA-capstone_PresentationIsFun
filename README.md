@@ -1,3 +1,2 @@
 ## Presentation is Fun!
-Make pretty presentation using R Markdown. 
-This repository is generated for CMDA students
+This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree/cmda4864/) students about how to make a pretty presentaiton using R Markdown. 
