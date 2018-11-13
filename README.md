@@ -8,10 +8,15 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
 
 # Getting Started
 1. Download and install [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) on your local computer. 
-2. Install the `rmarkdown` package in R with:
-```r
-install.packages("rmarkdown")
-```
+2. Install the `rmarkdown` package using the following code in RStudio:
+    ```r
+    install.packages("rmarkdown")
+    ```
+3. In R Studio:
+<p align="center">
+<img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/RMarkdown_Beamer_preview.PNG" width="330" height="240" title="Slide Example">
+</p>
+
 R Markdown offers 3 types of presentations
 <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/RMarkdown_Beamer_preview.PNG" width="330" height="240" title="Slide Example">
 * iosslides
