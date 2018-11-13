@@ -1,5 +1,6 @@
 # Presentation is Fun!
 This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree/cmda4864/) students. It covers how to make a pretty presentaiton using [R Markdown](https://rmarkdown.rstudio.com/). 
+
 *Let's go, HOKIES!*
 
 <p align="center">
