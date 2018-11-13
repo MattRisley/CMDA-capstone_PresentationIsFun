@@ -4,9 +4,9 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Prerequisites
+# Prerequisites
 1. Download and install [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) on your local computer. 
 2. Install the `rmarkdown` package in R with:
 ```r
-`install.packages("rmarkdown")`
+install.packages("rmarkdown")
 ```
