@@ -6,4 +6,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Prerequisites
 1. Download and install [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) on your local computer. 
-2. Install `rmarkdown` package in R `install.packages("rmarkdown")`
+2. Install the `rmarkdown` package in R with:
+```r
+`install.packages("rmarkdown")`
+```
