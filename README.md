@@ -11,8 +11,10 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
 2. Install the `rmarkdown` package using the following code in RStudio:
 
         install.packages("rmarkdown")
-    
-3. In R Studio:
+
+3. *To generate a new R Markdown file
+
+   In R Studio:
 
     <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/1.png" width="330">
 
@@ -22,13 +24,18 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
     * beamer (select this to generate a Beamer presentation as shown in class)
         
       <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/2.png" width="330">
-    
+      
+   *To open an existing R Markdown file 
+   In R Studio:
+   
+      <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/5.png" width="120">
+
 4. Render the Presentation
-    * To create a presentation, click **Knit**: <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/4.png" width="110">
+    * To create a presentation, click **Knit**: <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/4.png" width="80">
     * Knit automatically renders in the designated output type.
     * Change the output type by clicking the down arrow:
 
-      <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/3.png" width="220">
+      <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/3.png" width="160">
 
 
 # Authors
