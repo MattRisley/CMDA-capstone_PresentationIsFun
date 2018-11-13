@@ -1,7 +1,6 @@
 # Presentation is Fun!
 This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree/cmda4864/) students. It covers how to make a pretty presentaiton using [R Markdown](https://rmarkdown.rstudio.com/). Let's go, HOKIES!
-![](https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/RMarkdown_Beamer_preview.PNG)
-<img src="image" width="40%">
+![](https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/RMarkdown_Beamer_preview.PNG){:height="50%" width="50%"}
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
