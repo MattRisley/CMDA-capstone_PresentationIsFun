@@ -56,7 +56,7 @@ x+y
 ```
 
 
-## Tables in 2 Ways
+## Table in 2 Ways
 
 Example | Table | in | HTML
 --------|-------|----|------
@@ -82,9 +82,11 @@ par(mar=c(4,4,1,1))
 plot(pressure,las=1,pch=20)
 ```
 
-## Insert Images and Other Code Chunk Types
+## Insert an Image
 
-\includegraphics[width=1in]{python.png}
+Other languages can be accessed from R studio by:
+
+\includegraphics[width=1in]{~/Desktop/python.png}
 
 
 ## Other Language Engines
@@ -96,8 +98,14 @@ Many other languages are also supported in R markdown, e.g., Python,Julia, C++, 
 names(knitr::knit_engines$get())
 ```
 
-
 ## Python in R Markdown
+
+<!-- 
+For Python Chunks:
+knitr::opts_chunk$set(python.reticulate = FALSE)
+
+Put this in the setup chunk for cleaner output!
+-->
 
 ```{python, echo = TRUE}
 x = 'Hello, CMDA students !'
@@ -110,3 +118,15 @@ For more information:
 
 * https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/
 
+
+<!-- ## Python graphics 
+
+ You can draw plots using the **matplotlib** package in Python. 
+
+```{python} 
+import matplotlib.pyplot as plt 
+plt.plot([0, 2, 1, 4])
+plt.show() 
+```  
+
+-->
