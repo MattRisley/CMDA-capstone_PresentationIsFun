@@ -2,9 +2,9 @@
 title: "Beamer in R Markdown Highlights"
 author: "CMDA GTAs"
 date: "11/12/2018"
-output: 
+output:
   beamer_presentation:
-    theme: "Hokie"
+    theme: Hokie
 ---
 
 ```{r setup, include=FALSE}
@@ -86,7 +86,8 @@ plot(pressure,las=1,pch=20)
 
 Other languages can be accessed from R studio by:
 
-\includegraphics[width=1in]{~/Desktop/python.png}
+\centering
+\includegraphics[width=1in]{plots/python.png}
 
 
 ## Other Language Engines
@@ -100,13 +101,6 @@ names(knitr::knit_engines$get())
 
 ## Python in R Markdown
 
-<!-- 
-For Python Chunks:
-knitr::opts_chunk$set(python.reticulate = FALSE)
-
-Put this in the setup chunk for cleaner output!
--->
-
 ```{python, echo = TRUE}
 x = 'Hello, CMDA students !'
 print(x.split(' '))
@@ -117,16 +111,3 @@ For more information:
 * https://bookdown.org/yihui/rmarkdown/language-engines.html
 
 * https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/
-
-
-<!-- ## Python graphics 
-
- You can draw plots using the **matplotlib** package in Python. 
-
-```{python} 
-import matplotlib.pyplot as plt 
-plt.plot([0, 2, 1, 4])
-plt.show() 
-```  
-
--->

@@ -2,7 +2,9 @@
 title: "Iosslides in R Markdown Highlights"
 author: "CMDA GTAs"
 date: "11/12/2018"
-output: ioslides_presentation
+output: 
+  ioslides_presentation:
+    theme: "Hokie"
 ---
 
 ```{r setup, include=FALSE}
@@ -116,16 +118,3 @@ For more information:
 * https://bookdown.org/yihui/rmarkdown/language-engines.html
 
 * https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/
-
-
-<!-- ## Python graphics 
-
- You can draw plots using the **matplotlib** package in Python. 
-
-```{python} 
-import matplotlib.pyplot as plt 
-plt.plot([0, 2, 1, 4])
-plt.show() 
-``` 
-
--->
