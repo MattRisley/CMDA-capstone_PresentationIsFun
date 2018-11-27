@@ -39,7 +39,7 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
 
 # Getting Started with Beamer
 Upload Beamer.zip to your Overleaf or you can import from Github directly
-<img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/Overleaf_Import_from_Github.png" width="220">
+<img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/Overleaf_Import_from_Github.PNG" width="220">
 
 # Authors
 CMDA GTAs:
