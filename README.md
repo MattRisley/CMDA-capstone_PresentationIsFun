@@ -5,6 +5,11 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
 <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/RMarkdown_Beamer_preview.PNG" width="330" height="240" title="Slide Example">
 </p>
 
+# Getting Started with Beamer
+Upload Beamer.zip to your Overleaf or you can import from Github directly
+
+<img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/Overleaf_Import_from_Github.PNG" width="220">
+
 # Getting Started with R Markdown
 1. Download and install [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) on your local computer. 
 2. Install the `rmarkdown` package using the following code in RStudio:
@@ -36,11 +41,6 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
     * Change the output type by clicking the down arrow:
 
       <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/3.png" width="160">
-
-# Getting Started with Beamer
-Upload Beamer.zip to your Overleaf or you can import from Github directly
-
-<img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/Overleaf_Import_from_Github.PNG" width="220">
 
 # Authors
 CMDA GTAs:
