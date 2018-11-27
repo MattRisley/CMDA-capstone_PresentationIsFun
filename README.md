@@ -1,12 +1,11 @@
 # Presentation is Fun!
-This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree/cmda4864/) students. It covers how to make a pretty presentaiton using [R Markdown](https://rmarkdown.rstudio.com/). 
-*Let's go, HOKIES!*
+This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree/cmda4864/) students. It covers how to make a pretty presentaiton using [Beamer](https://ctan.org/pkg/beamer?lang=en) and [R Markdown](https://rmarkdown.rstudio.com/). 
 
 <p align="center">
 <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/RMarkdown_Beamer_preview.PNG" width="330" height="240" title="Slide Example">
 </p>
 
-# Getting Started
+# Getting Started with R Markdown
 1. Download and install [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) on your local computer. 
 2. Install the `rmarkdown` package using the following code in RStudio:
 
@@ -38,7 +37,9 @@ This repository is generated for the [CMDA](http://www.math.vt.edu/people/embree
 
       <img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/3.png" width="160">
 
-
+# Getting Started with Beamer
+Upload Beamer.zip to your Overleaf or you can import from Github directly
+<img src="https://github.com/mhuiying/CMDA-capstone_PresentationIsFun/blob/master/img/Overleaf_Import_from_Github.png" width="220">
 
 # Authors
 CMDA GTAs:
